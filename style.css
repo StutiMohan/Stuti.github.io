@@ -1,44 +1,59 @@
 .navbar-default .navbar-brand{
 	/* color: #FFF; */
-	color: rgb(253, 252, 252);
+	color: rgb(247, 243, 243); /* colour of the Heahing on the landing page*/
 	/* background-color: #FF5733;*/
-	background-color: rgb(85, 148, 101);
+	background-color: rgb(32, 121, 76);
     font-family: "verdana", verdana, serif;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
-    margin-left: 40px !important;
+	margin-left: 40px !important;
+	border: solid 2px rgb(12, 12, 12);
 }
 
 .navbar-default{
-	 background-color: #FFF;
-	 margin-bottom: 20px;
-	 font-size:20px;
+	 /* color: rgb(253, 252, 252); */
+	 color: rgb(247, 243, 243);
+	 background-color: #88f331;
+	 font-family: "verdana", verdana, serif;
+	 margin-bottom: 45px;
+	 font-size:30px;
+	 border: solid 2px rgb(12, 12, 12);
 }
 
 .box{
-	background-color: #FFF;
-	padding: 20px;
-	margin: 20px;
+	background-color: rgb(169, 227, 230);
+	padding: 5px;
+	margin: 5px;
+	font-size:20px;
+	border: solid 2px rgb(12, 12, 12);
 }
 .box-right{
-	background-color: #FFF;
+	background-color: rgb(235, 194, 194);
 	padding: 20px;
+	font-size:20px;
 	margin: 20px 20px 20px 0px;
+	border: solid 2px rgb(12, 12, 12);
 
 }
 .box-left{
-	background-color: #FFF;
+	background-color: rgb(238, 240, 152);
+	font-size:20px;
 	padding: 20px;
 	margin:20px 0px 20px 20px;
+	border: solid 2px rgb(12, 12, 12);
 }
 	
 .box-comparison{
 	margin: 5px 20px 5px 75px;
+	border: solid 2px rgb(12, 12, 12);
+	font-size:20px;
+
 }
 
 .img-index {
 float: left; 
 margin: 0px 15px 15px 0px;
+border: solid 2px rgb(12, 12, 12);;
 }
 
 .img-visualizationpg{
@@ -46,37 +61,45 @@ margin: 0px 15px 15px 0px;
 	width: 75%; 
 	text-align: center;
 	object-fit: contain;
+	border: solid 2px rgb(12, 12, 12);
 }
 
 .img-contain{
 	height:100%; 
 	width: 100%; 
 	object-fit: contain;
+	border: solid 2px rgb(12, 12, 12);
 }
 
 .para{
 	line-height: 25px;
 	font-family: "verdana", verdana, serif;
-    font-size: 20px;
+    font-size: 15px;
     align-content: stretch;
     background-color: #FFF;
-    padding:20px;
+	padding:20px;
+	border: solid 2px rgb(12, 12, 12);
 }
 
 
 h1{
 	font-family: "verdana", verdana, serif;
 	/* color: #E69823; */
-	color: rgb(85, 148, 101);
-    background-color: #FFF;
-    padding:20px;
+	font-size: 45px;
+	color: rgb(255, 255, 255);
+    background-color: rgb(40, 16, 107);
+	padding:35px;
+	border: solid 2px rgb(12, 12, 12);
 }
 h2{
 	font-family: "verdana", verdana, serif;
 	/* color: #E69823; */
-	color: rgb(85, 148, 101);
-    background-color: #FFF;
-    padding:15px;
+	line-height: 25px;
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+    background-color: rgb(40, 16, 107);
+	padding:40px;
+	border: solid 2px rgb(12, 12, 12);
 
 }
 p{
@@ -85,12 +108,161 @@ p{
 	font-family: "verdana", verdana, serif;
     font-size: 15px;
     align-content: stretch;
-    background-color: #FFF;
+	background-color: rgb(166, 228, 233);
+	border: solid 2px rgb(12, 12, 12);
 }
 
 #body-bg{
 	background-color: #ECECEA;
+	color: rgb(17, 49, 25);
 }
 
 
+
+/*
+========================================================================================================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  
+  /* Positioning */
+  margin: 0;
+  vertical-align: baseline;
+
+  /* Box-model */
+  padding: 0;
+
+  /* Typography */
+  font-size: 85%;
+  font: inherit;
+
+  /* Visual */
+  border: 0;
+  
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section { display: block; }
+
+body { line-height: 1; }
+
+ol,
+ul { list-style: none; }
+
+blockquote,
+q { quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  
+  /* Misc */
+  content: '';
+  content: none;
+
+}
+
+table {
+  
+  /* Visual */
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
 
