@@ -12,7 +12,8 @@
  .navbar-default{ 
 	
 	 color: rgb(247, 243, 243);
-	 background-color: #88f331;
+	 /* background-color: #88f331; */
+	 background-color: rgb(167, 216, 191);
 	 font-family: "verdana", verdana, serif;
 	 margin-bottom: 45px;
 	 font-size:30px;
@@ -20,7 +21,7 @@
 }
 
 .box{
-	background-color: rgb(169, 227, 230);
+	background-color: rgb(171, 182, 131);
 	padding: 5px;
 	margin: 5px;
 	font-size:20px;
@@ -107,7 +108,7 @@ border: solid 2px rgb(12, 12, 12);;
 	font-family: "verdana", verdana, serif;
     font-size: 12px;
     align-content: stretch;
-	background-color: rgb(166, 228, 233);
+	background-color: rgb(159, 170, 119);
 	/*border: solid 2px rgb(12, 12, 12);*/
 }
 
