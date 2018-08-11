@@ -4,13 +4,17 @@
 	<head>
 		
 		<meta charset="UTF-8">
-  		<title>Web Visualization Dashboard</title>
-  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Optional theme -->
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="style.css">
   		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 		<script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  		
+		
+		<title>Web Visualization Dashboard</title>
 	</head>
 
 	<body id="body-bg">
@@ -57,18 +61,18 @@
 				<div class="col-md-8">
 					<div class="box-left">
 						<div>
-							<h1>Summary</h1>
+							<h1 class = "h1">Summary</h1>
 							<hr size="15" noshade>
 						</div>
 						<div class="clearfix">
-							<img class="pull-left" src="Temperature.jpeg">
-							<p>
+							<img class="pull-left" src="Output//Temperature.jpeg">
+							<p class="p">
 								
 							The purpose of this project was to visualize the weather of 500+ cities across the world of varying distance from the Equator. Analyse the weather changes, that occur based on the relative position the Equator. For analysis, we extracted data from the Open Weather Map API and transformed a dataset of 500+ cities that was randomly generated.</p>
 							
-							<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.The factors that were considered included: Temperature,Cloudliness, Wind Speed and Humidity.
+							<p class="p">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.The factors that were considered included: Temperature,Cloudliness, Wind Speed and Humidity.
 							</p>
-							<p>
+							<p class="p">
 								This site provides  the Data Source and Visualizations as part of the analysis. It also explains and describes any trends and corelations observed.
 							</p>
 						</div>
@@ -78,18 +82,18 @@
 				<div class="col-md-4">
 					<div class="box-right">
 						<div>
-							<h2><b>Visualizations</b></h2>
+							<h2 class = "h2"><b>Visualizations</b></h2>
 							<hr size="15" noshade>
 						</div>
 							<div class="row">
 								<div class="col-xs-3 col-sm-3 col-md-6">
 		                            <a href="maxtemp.html">
-		                              <img src="Temperature.jpeg" alt="Latitude vs. Temperature" class="img-contain style="width:128px;height:128px"">
+		                              <img src="Output/Temperature.jpeg" alt="Latitude vs. Temperature" class="img-contain style="width:128px;height:128px"">
 		                          </a>
 								</div>	
 								<div class="col-xs-3 col-sm-3 col-md-6">
 									<a href="humidity.html">
-										<img src="Humidity.jpeg" alt="Latitude vs. Humidity" class="img-contain style="width:128px;height:128px"">
+										<img src="Output/Humidity.jpeg" alt="Latitude vs. Humidity" class="img-contain style="width:128px;height:128px"">
 									</a>
 								</div>	
 							</div>	
@@ -97,12 +101,12 @@
 							<div class="row">
 								<div class="col-xs-3 col-sm-3 col-md-6">
 									<a href="cloudliness.html">
-										<img src="Cloudiness.jpeg" class="img-contain style="width:128px;height:128px"">
+										<img src="Output/Cloudiness.jpeg" class="img-contain style="width:128px;height:128px"">
 									</a>
 								</div>	
 								<div class="col-xs-3 col-sm-3 col-md-6">
 									<a href="windspeed.html">
-										<img src="Windspeed.jpeg" class="img-contain style="width:128px;height:128px"">
+										<img src="Output/Windspeed.jpeg" class="img-contain style="width:128px;height:128px"">
 									</a>
 								</div>
 							</div>
