@@ -1,6 +1,10 @@
+/*************************************************/
+/* Navigation Bar Style: Glyphycon and Text  */
+/*************************************************/	
+	
 	.navbar-default .navbar-brand{
 	
-	color: rgb(247, 243, 243);/* colour of the Heahing on the landing page*/
+	color: rgb(247, 243, 243);/* colour of the Heading on the landing page*/
 	background-color: rgb(32, 121, 76);
     font-family: "verdana", verdana, serif;
     font-size: 50px;
@@ -13,12 +17,17 @@
 	
 	 color: rgb(247, 243, 243);
 	 /* background-color: #88f331; */
+	 
 	 background-color: rgb(167, 216, 191);
 	 font-family: "verdana", verdana, serif;
 	 margin-bottom: 45px;
 	 font-size:30px;
 	 border: solid 2px rgb(12, 12, 12);
 }
+
+/*************************************************/
+/* Body Style: Glyphycon and Text  */
+/*************************************************/	
 
 .box{
 	background-color: rgb(171, 182, 131);
@@ -128,6 +137,42 @@ border: solid 2px rgb(12, 12, 12);;
 	font-weight: bold;
 }
 
+/*************************************************/
+/* Footer Style: Glyphycon and Text  */
+/*************************************************/
+
+/*body {margin:0;}*/
+
+.icon-bar {
+	width: 100%;
+	    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+	width: 20%;
+	
+    text-align: center;
+    padding: 0px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+/*Colour of the active page*/
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+/*************************************************/
+/* Miscelaneous Style: Glyphycon and Text  */
+/*************************************************/
 /*
 ========================================================================================================
 */
@@ -274,4 +319,3 @@ table {
   border-spacing: 0;
 
 }
-
